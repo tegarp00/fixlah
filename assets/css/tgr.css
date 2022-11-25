@@ -349,7 +349,7 @@ body {
 /* profile */
 #profile {
     background: linear-gradient(180deg, #A9CACC 56.25%, rgba(169, 204, 198, 0) 100%);
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 #profile .header {
@@ -376,9 +376,126 @@ body {
 #profile .logis2 .burger {
     width: 38px;
     height: 18px;
+    margin-right: 18px;
 }
 
 #profile .logis2 .icon {
     width: 38px;
     height: 22px;
+}
+
+#profile a {
+    margin: 0;
+    padding: 0;
+}
+
+#profile .cardprof {
+    margin-top: 81px;
+}
+
+#profile .card {
+    margin: 0 auto;
+    background: rgba(236, 236, 236, 0.54);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 660.17px;
+    height: 755px;
+}
+
+#profile .profls {
+    padding-top: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+#profile .prof {
+    height: 210px;
+    margin-bottom: 30px;
+}
+
+#profile .isiprof {
+    padding-left: 32px;
+}
+
+#profile .isiprof p {
+    margin-left: 16px;
+    margin-bottom: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #000000;
+}
+
+#profile .nl {
+    width: 589.36px;
+    height: 56.41px;
+    background: rgba(255, 255, 255, 0.68);
+    border-radius: 15px;
+    outline: none;
+    border: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-bottom: 16px;
+}
+
+#profile .pilih {
+    display: flex;
+    height: 30px;
+    margin-bottom: 26px;
+    margin-top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#profile .pilih .field1 {
+    margin-right: 40px;
+}
+
+#profile .pilih input {
+    transform: scale(2.2);
+    margin-left: 16px;
+}
+
+#profile .pilih label {
+    margin-left: 16px;
+}
+
+#profile .btnsbmt {
+    display: flex;
+    justify-content: center;
+}
+
+#profile .btnsbmt button {
+    outline: none;
+    margin-top: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    background:#759993;
+    width: 265px;
+    border-radius: 50px;
+    border: 0;
+
+
+    color: white;
+    text-decoration: none;
+    width: 265px;
+    height: 57px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
 }
