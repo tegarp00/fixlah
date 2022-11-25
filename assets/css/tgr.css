@@ -1,0 +1,384 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#signup {
+    background: linear-gradient(180deg, #A9CACC 56.25%, rgba(169, 204, 198, 0) 100%);
+    margin-bottom: 30px;
+}
+
+#signup .header {
+    background: #ECECEC;
+}
+
+#signup .header img {
+    height: 45px;
+}
+
+#signup .header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+
+#signup .header .content .logis {
+    padding-right: 56px;
+}
+
+.logis a {
+    margin-right: 39px;
+    text-decoration: none;
+}
+
+.logis .register {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    color: #2C2C2C;
+}
+
+.logis .login {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    color: #949191;
+
+}
+
+#signup .card .content {
+    margin: 0 auto;
+    width: 494px;
+    height: 756px;
+    background: rgba(223, 223, 223, 0.65);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+#signup .card h1 {
+    padding-top: 32px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.line-regis {
+    align-items: center;
+    width: 415px;
+    top: 261px;
+    border: 2px solid #000000;
+    margin-bottom: 32px;
+}
+
+.isi {
+    margin-left: 37.50px;
+}
+
+.isi .nname {
+    outline: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background: transparent;
+    border-bottom: #000000;
+    border: 1px;
+    width: 400px;
+}
+
+.isi .nlengkap {
+    margin-bottom: 4px;
+    color: #000000;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    height: 35px;
+}
+
+.garis {
+    margin-left: 0;
+    margin-bottom: 32px;
+    width: 419px;
+    border: 1px solid #000000;
+}
+
+.gender {
+    height: 35px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.pilih {
+    display: flex;
+    height: 30px;
+    margin-bottom: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.pilih .field1 {
+    margin-right: 40px;
+}
+
+.isi .ntelp {
+    outline: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background: transparent;
+    border-bottom: #000000;
+    border: 1px;
+    width: 400px;
+}
+
+.notel {
+    margin-bottom: 0;
+    height: 35px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.btnregis {
+    margin: 0 auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    background:#759993;
+    width: 265px;
+    border-radius: 50px;
+}
+
+.btnregis a {
+    color: white;
+    text-decoration: none;
+    width: 265px;
+    height: 57px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.garisreg {
+    margin-left: 0;
+    margin-bottom: 37px;
+    width: 419px;
+    border: 1px solid #000000;
+}
+
+
+/* login */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#login {
+    background: linear-gradient(180deg, #A9CACC 56.25%, rgba(169, 204, 198, 0) 100%);
+    margin-bottom: 30px;
+}
+
+#login .header {
+    background: #ECECEC;
+    margin-bottom: 90px;
+}
+
+#login .header img {
+    height: 45px;
+}
+
+#login .header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+
+#login .header .content .logis2 {
+    padding-right: 56px;
+}
+
+.logis2 a {
+    margin-right: 39px;
+    text-decoration: none;
+}
+
+.logis2 .register {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    color: #949191;
+}
+
+.logis2 .login {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    color: #2C2C2C;
+
+}
+
+#login .cardlog h1 {
+    text-align: center;
+}
+
+#login .cardlog h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#login .cardlog .card {
+    padding-top: 27px;
+    margin: 0 auto;
+    width: 494px;
+    height: 441px;
+    background: rgba(223, 223, 223, 0.65);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+.garisreg {
+    margin-bottom: 37px;
+    width: 419px;
+    border: 2px solid #000000;
+    margin: 0 auto;
+}
+
+.garisline {
+    margin-left: 0;
+    margin-bottom: 37px;
+    width: 419px;
+    border: 1px solid #000000;
+    margin: 0 auto;
+}
+
+#login .isi {
+    margin-left: 37.50px;
+}
+
+.garisline {
+    margin-left: 0;
+    margin-bottom: 39px;
+}
+
+#login .isi .nemail {
+    margin-bottom: 4px;
+    color: #000000;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    height: 35px;
+    margin-top: 32px;
+}
+
+#login .isi .npassword {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#login .isi .niemail {
+    outline: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background: transparent;
+    border-bottom: #000000;
+    border: 1px;
+    width: 400px;
+}
+
+#login .isi .nipassword {
+    outline: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background: transparent;
+    border-bottom: #000000;
+    border: 1px;
+    width: 400px;
+}
+
+#login .btnlogin {
+    margin: 0 auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    background:#759993;
+    width: 265px;
+    border-radius: 50px;
+}
+
+#login .btnlogin a {
+    color: white;
+    text-decoration: none;
+    width: 265px;
+    height: 57px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+/* profile */
+#profile {
+    background: linear-gradient(180deg, #A9CACC 56.25%, rgba(169, 204, 198, 0) 100%);
+    margin-bottom: 30px;
+}
+
+#profile .header {
+    background: #ECECEC;
+}
+
+#profile .header img {
+    height: 45px;
+}
+
+#profile .header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+
+#profile .header .content .logis2 {
+    padding-right: 56px;
+    display: flex;
+    align-items: center;
+}
+
+#profile .logis2 .burger {
+    width: 38px;
+    height: 18px;
+}
+
+#profile .logis2 .icon {
+    width: 38px;
+    height: 22px;
+}
