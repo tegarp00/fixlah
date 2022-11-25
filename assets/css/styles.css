@@ -1,0 +1,194 @@
+/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Start Styling */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    margin: 0 60px;
+}
+
+/* Section Nav */
+nav{
+    background: #ECECEC;
+}
+
+nav .container{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+nav a {
+    margin-left: 43px;
+    text-decoration: none;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+
+    color: #949191;
+}
+
+nav img{
+    width: 221px;
+}
+
+/* Section Hero */
+
+#hero{
+    background: rgba(117, 153, 147, 0.35);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin: 33px 23px;
+}
+
+#hero .container{
+    display: flex;
+    align-items: center;
+    gap: 72px;
+    padding: 72px 0;
+}
+
+#hero .container .desc{
+    text-align: right;
+}
+
+#hero .container h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 68px;
+
+    color: #262424;
+}
+
+#hero .container p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+
+    color: rgba(0, 0, 0, 0.45);
+}
+
+#hero .container .btn-hero{
+    display: flex;
+    justify-content: center;
+}
+
+#hero .container button{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+
+    color: #262424;
+    background: #9FC1BB;
+    border-radius: 55px;
+    border: 0;
+
+    padding: 15px 42px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Section Fitur */
+
+#fitur{
+    margin-bottom: 50px;
+}
+
+#fitur h2{
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 52px;
+
+    color: #262424;
+
+    margin: 47px 0;
+}
+
+#fitur .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+#fitur .container .card{
+    box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.55);
+    border-radius: 35px;
+
+    padding: 50px 46px;
+    text-align: center;
+    width: calc((100% / 3) - 130px);
+}
+
+#fitur .container .card h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 52px;
+
+    color: #262424;
+    margin-top: 20px;
+}
+
+#fitur .container .card p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+
+    color: rgba(0, 0, 0, 0.45);
+    margin-top: 20px;
+}

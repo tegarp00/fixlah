@@ -1,0 +1,245 @@
+
+
+/* RESET STYLES */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ECECEC;
+}
+
+input,
+button,
+textarea,
+select {
+    border: none;
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* ROOT STYLES */
+
+:root {
+    --greenSuccess: #9FC1BB;
+    --darkGreen: #759993;
+    --redDanger: #DA555C;
+    --pureYellow: #F5CF4C;
+    --pureGray: #DFDFDF;
+    --black: #262424;
+    --dark: #000000;
+    --pureBlue: #9FDFE1;
+
+    --pureOrange: #DE9244;
+}
+
+/* REUSED STYLES */
+
+section {
+    padding: 80px 0;
+}
+
+.container {
+    padding: 0 60px;
+}
+
+.fc-success {
+    color: var(--darkGreen);
+}
+
+.fc-danger {
+    color: var(--redDanger);
+}
+
+.fc-warning {
+    color: var(--pureYellow);
+}
+
+.fc-info {
+    color: var(--pureBlue);
+}
+
+/* buttons */
+
+.btn {
+    padding: 4px 42px;
+    border-radius: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: clamp(12px, 4vw, 25px);
+    cursor: pointer;
+}
+
+.btn-success {
+    background-color: var(--greenSuccess);
+}
+
+.btn-danger {
+    background-color: var(--redDanger);
+}
+
+.btn-warning {
+    background-color: var(--pureYellow);
+}
+
+.btn-info {
+    background-color: var(--pureBlue);
+}
+
+/* badges */
+
+.card-form {
+    padding: 36px 50px 40px 50px;
+    position: relative;
+    background-color: var(--pureGray);
+    border-radius: 1rem;
+}
+
+.card-form.anggaran .card-item-form {
+    padding-top: 26px;
+}
+
+.card-form-back {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    letter-spacing: 0.035em;
+    color: var(--dark);
+}
+
+.card-form-badge {
+    position: absolute;
+    top: -45px;
+    left: 0;
+}
+
+.card-form-badge {
+    padding: 11px 28px 14px 28px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: max-content;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+}
+
+.card-form-badge-title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.card-form-badge-title-wrapper img {
+    width: clamp(30px, 4vw, 50px);
+    height: clamp(30px, 4vw, 50px);
+}
+
+.card-form-badge-text-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(12px, 4vw, 35px);
+}
+
+.card-form-badge-price {
+    font-style: normal;
+    font-weight: 700;
+    font-size: clamp(12px, 4vw, 45px);
+}
+
+.card-form-title {
+    padding-top: 28px;
+    color: var(--black);
+    font-size: clamp(12px, 4vw, 35px);
+}
+
+.card-list-form {
+    max-width: 902px;
+}
+
+.card-item-form {
+    padding: 20px 0;
+    position: relative;
+}
+
+.card-item-form label {
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(12px 4vw, 23px);
+    letter-spacing: 0.035em;
+}
+
+.card-item-input {
+    position: relative;
+    padding-block: 20px;
+    border-bottom: 1px solid var(--black);
+}
+
+.card-item-input input,
+.card-item-input select 
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding-left: 120px;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(12px, 4vw, 35px);
+    letter-spacing: 0.035em;
+}
+
+.card-item-form:not(:first-child) .card-item-input {
+    margin-top: 12px;
+}
+
+.card-item-form:not(:first-child) .card-item-input input,
+.card-item-form:not(:first-child) .card-item-input select
+{
+    padding-left: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: clamp(12px, 4vw, 20px);
+    color: rgba(0, 0, 0, .7);
+    letter-spacing: 0.035em;
+}
+
+.card-badge-icon-nominal {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 14px;
+    width: max-content;
+    border-radius: 1.5rem;
+    border: 1px solid var(--black);
+    z-index: 1;
+}
+
+.card-badge-icon-nominal p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.035em;
+}
+
+
+
+
+
+
