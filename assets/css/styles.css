@@ -270,7 +270,7 @@ Halaman Dashboard
 
     text-align: center;
     padding: 45px 65px;
-    width: calc(100% * (1 / 3));
+    width: calc(100% * (1 / 3) - 160px);
 }
 
 #landing .container .card .title{
