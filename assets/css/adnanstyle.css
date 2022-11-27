@@ -86,7 +86,7 @@ table {
 #tabungan .btn,
 #totalPendapatan .btn,
 #laporanKeuangan .btn,
-#anggaraIconTambah .btn,
+#anggaranIconTambah .btn,
 #pengeluaran .btn,
 #daftarAnggaran .btn
 {
@@ -101,7 +101,7 @@ table {
 #tabungan .btn-success, 
 #totalPendapatan .btn-success,
 #pengeluaran .btn-success,
-#anggaranTambahanIcon .btn-success,
+#anggaranIconTambah .btn-success,
 #daftarAnggaran .btn-success,
 #laporanKeuangan .btn-success
 {
@@ -111,7 +111,7 @@ table {
 #tabungan .btn-danger, 
 #totalPendapatan .btn-danger, 
 #pengeluaran .btn-danger, 
-#anggaranTambahanIcon .btn-danger, 
+#anggaranIconTambah .btn-danger, 
 #daftarAnggaran .btn-danger, 
 #laporanKeuangan .btn-danger 
 {
@@ -121,7 +121,7 @@ table {
 #tabungan .btn-warning,
 #totalPendapatan .btn-warning, 
 #pengeluaran .btn-warning, 
-#anggaranTambahanIcon .btn-warning, 
+#anggaranIconTambah .btn-warning, 
 #daftarAnggaran .btn-warning, 
 #laporanKeuangan .btn-warning
 {
@@ -131,7 +131,7 @@ table {
 #tabungan .btn-info, 
 #totalPendapatan .btn-info, 
 #pengeluaran .btn-info, 
-#anggaranTambahanIcon .btn-info, 
+#anggaranIconTambah .btn-info, 
 #daftarAnggaran .btn-info, 
 #laporanKeuangan .btn-info 
 {
@@ -143,7 +143,7 @@ table {
 #tabungan .card-form, 
 #totalPendapatan .card-form, 
 #pengeluaran .card-form, 
-#anggaranTambahanIcon .card-form, 
+#anggaranIconTambah .card-form, 
 #daftarAnggaran .card-form, 
 #laporanKeuangan .card-form
 {
@@ -167,7 +167,7 @@ table {
 #tabungan .card-form-back, 
 #totalPendapatan .card-form-back, 
 #pengeluaran .card-form-back, 
-#anggaranTambahanIcon .card-form-back, 
+#anggaranIconTambah .card-form-back, 
 #daftarAnggaran .card-form-back, 
 #laporanKeuangan .card-form-back
 {
@@ -181,7 +181,7 @@ table {
 #tabungan .card-form-badge,
 #totalPendapatan .card-form-badge,
 #pengeluaran .card-form-badge,
-#anggaranTambahanIcon .card-form-badge,
+#anggaranIconTambah .card-form-badge,
 #daftarAnggaran .card-form-badge,
 #laporanKeuangan .card-form-badge
 {
@@ -210,7 +210,7 @@ table {
 #tabungan .card-form-badge-title-wrapper,
 #totalPendapatan .card-form-badge-title-wrapper,
 #pengeluaran .card-form-badge-title-wrapper,
-#anggaranTambahanIcon .card-form-badge-title-wrapper,
+#anggaranIconTambah .card-form-badge-title-wrapper,
 #daftarAnggaran .card-form-badge-title-wrapper,
 #laporanKeuangan .card-form-badge-title-wrapper
 {
@@ -222,7 +222,7 @@ table {
 #tabungan .card-form-badge-title-wrapper img,
 #totalPendapatan .card-form-badge-title-wrapper img,
 #pengeluaran .card-form-badge-title-wrapper img,
-#anggaranTambahanIcon .card-form-badge-title-wrapper img,
+#anggaranIconTambah .card-form-badge-title-wrapper img,
 #daftarAnggaran .card-form-badge-title-wrapper img,
 #laporanKeuangan .card-form-badge-title-wrapper img
 {
@@ -233,7 +233,7 @@ table {
 #tabungan .card-form-badge-text-title,
 #totalPendapatan .card-form-badge-text-title,
 #pengeluaran .card-form-badge-text-title,
-#anggaranTambahanIcon .card-form-badge-text-title,
+#anggaranIconTambah .card-form-badge-text-title,
 #daftarAnggaran .card-form-badge-text-title,
 #laporanKeuangan .card-form-badge-text-title
 {
@@ -245,7 +245,7 @@ table {
 #tabungan .card-form-badge-price, 
 #totalPendapatan .card-form-badge-price, 
 #pengeluaran .card-form-badge-price, 
-#anggaranTambahanIcon .card-form-badge-price, 
+#anggaranIconTambah .card-form-badge-price, 
 #daftarAnggaran .card-form-badge-price, 
 #laporanKeuangan .card-form-badge-price
 {
@@ -257,7 +257,7 @@ table {
 #tabungan .card-form-title, 
 #totalPendapatan .card-form-title, 
 #pengeluaran .card-form-title, 
-#anggaranTambahanIcon .card-form-title, 
+#anggaranIconTambah .card-form-title, 
 #daftarAnggaran .card-form-title, 
 #laporanKeuangan .card-form-title
 {
@@ -269,7 +269,7 @@ table {
 #tabungan .card-list-form, 
 #totalPendapatan .card-list-form, 
 #pengeluaran .card-list-form, 
-#anggaranTambahanIcon .card-list-form, 
+#anggaranIconTambah .card-list-form, 
 #daftarAnggaran .card-list-form, 
 #laporanKeuangan .card-list-form 
 {
@@ -279,7 +279,7 @@ table {
 #tabungan .card-item-form, 
 #totalPendapatan .card-item-form, 
 #pengeluaran .card-item-form, 
-#anggaranTambahanIcon .card-item-form, 
+#anggaranIconTambah .card-item-form, 
 #daftarAnggaran .card-item-form, 
 #laporanKeuangan .card-item-form
 {
@@ -290,7 +290,7 @@ table {
 #tabungan .card-item-form label, 
 #totalPendapatan .card-item-form label, 
 #pengeluaran .card-item-form label, 
-#anggaranTambahanIcon .card-item-form label, 
+#anggaranIconTambah .card-item-form label, 
 #daftarAnggaran .card-item-form label, 
 #laporanKeuangan .card-item-form label 
 {
@@ -303,7 +303,7 @@ table {
 #tabungan .card-item-input, 
 #totalPendapatan .card-item-input, 
 #pengeluaran .card-item-input, 
-#anggaranTambahanIcon .card-item-input, 
+#anggaranIconTambah .card-item-input, 
 #daftarAnggaran .card-item-input, 
 #laporanKeuangan .card-item-input 
 {
@@ -373,6 +373,7 @@ table {
     background-color: #ffffff;
     border-radius: 15px;
     overflow: auto;
+    margin-block: 64px 136px;
 }
 
 .card-form-thead tr {

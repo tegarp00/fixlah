@@ -17,6 +17,35 @@
 </head>
 <body>
 
+    <header class="header">
+
+        <a href="#" class="logo">
+            <img src="./assets/images/logoaturcuan.png" width="54" height="47" alt="">
+            <span>
+                Atur Cuan
+            </span>
+        </a>
+
+        <nav class="navbar" data-navbar>
+            <ul class="navbar-list" data-navbar-list>
+                <li class="nav-item" data-nav-item><a href="#">Pendapatan</a></li>
+                <li class="nav-item" data-nav-item><a href="#">Pengeluaran</a></li>
+                <li class="nav-item" data-nav-item><a href="#">Tabungan</a></li>
+                <li class="nav-item" data-nav-item><a href="#">Anggaran</a></li>
+                <li class="nav-item" data-nav-item><a href="#">Laporan Keuangan</a></li>
+            </ul>
+        </nav>
+
+        <div class="button-actions">
+            <button data-nav-toggler>
+                <img src="./assets/images/icons/hamburger-icon.svg" width="38" height="28" alt="">
+            </button>
+            <button>
+                <img src="./assets/images/icons/user-profile-icon.svg" width="40" height="40" alt="">
+            </button>
+        </div>
+
+    </header>
     
     <section id="totalPendapatan" class="section">
         <div class="container">
@@ -97,6 +126,16 @@
         </div>
     </section>
 
+    <script type="text/javascript">
+
+        const navbar = document.querySelector('[data-navbar]');
+        const buttonNavToggler = document.querySelector('[data-nav-toggler');
+
+        buttonNavToggler.addEventListener("click", () => {
+            navbar.classList.toggle('active');
+        });
+
+    </script>
     
 </body>
 </html>
