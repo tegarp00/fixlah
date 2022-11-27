@@ -301,3 +301,697 @@ Halaman Dashboard
 
     color: #759993;
 }
+
+/* p00 */
+#signup {
+    background: linear-gradient(180deg, #A9CACC 56.25%, rgba(169, 204, 198, 0) 100%);
+    margin-bottom: 30px;
+}
+
+#signup .header {
+    background: #ECECEC;
+}
+
+#signup .header img {
+    height: 45px;
+}
+
+#signup .header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+
+#signup .header .content .logis {
+    padding-right: 56px;
+}
+
+#signup .logis a {
+    margin-right: 39px;
+    text-decoration: none;
+}
+
+#signup .logis .register {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    color: #2C2C2C;
+}
+
+#signup .logis .login {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    color: #949191;
+
+}
+
+#signup .card {
+    padding-top: 50px;
+}
+
+#signup .card .content {
+    margin: 0 auto;
+    width: 494px;
+    height: 756px;
+    background: rgba(223, 223, 223, 0.65);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+#signup .card h1 {
+    padding-top: 32px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#signup .line-regis {
+    align-items: center;
+    width: 415px;
+    top: 261px;
+    border: 2px solid #000000;
+    margin-bottom: 32px;
+}
+
+#signup .isi {
+    margin-left: 37.50px;
+}
+
+#signup .isi .nname {
+    outline: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background: transparent;
+    border-bottom: #000000;
+    border: 1px;
+    width: 400px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#signup .isi .nlengkap {
+    margin-bottom: 4px;
+    color: #000000;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    height: 35px;
+}
+
+#signup .garis {
+    margin-left: 0;
+    margin-bottom: 32px;
+    width: 419px;
+    border: 1px solid #000000;
+}
+
+#signup .gender {
+    height: 35px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#signup .pilih {
+    display: flex;
+    height: 30px;
+    margin-bottom: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#signup .pilih .field1 {
+    margin-right: 40px;
+}
+
+#signup .isi .ntelp {
+    outline: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background: transparent;
+    border-bottom: #000000;
+    border: 1px;
+    width: 400px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#signup .notel {
+    margin-bottom: 0;
+    height: 35px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#signup .btnregis {
+    margin: 0 auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    background:#759993;
+    width: 265px;
+    border-radius: 50px;
+}
+
+#signup .btnregis a {
+    color: white;
+    text-decoration: none;
+    width: 265px;
+    height: 57px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#signup .garisreg {
+    margin-left: 0;
+    margin-bottom: 37px;
+    width: 419px;
+    border: 1px solid #000000;
+}
+
+/* login */
+#login {
+    background: linear-gradient(180deg, #A9CACC 56.25%, rgba(169, 204, 198, 0) 100%);
+    margin-bottom: 30px;
+}
+
+#login .header {
+    background: #ECECEC;
+    margin-bottom: 90px;
+}
+
+#login .header img {
+    height: 45px;
+}
+
+#login .header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+
+#login .header .content .logis2 {
+    padding-right: 56px;
+}
+
+#login .logis2 a {
+    margin-right: 39px;
+    text-decoration: none;
+}
+
+#login .logis2 .register {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    color: #949191;
+}
+
+#login .logis2 .login {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+
+    color: #2C2C2C;
+
+}
+
+#login .cardlog h1 {
+    text-align: center;
+}
+
+#login .cardlog h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#login .cardlog .card {
+    padding-top: 27px;
+    margin: 0 auto;
+    width: 494px;
+    height: 441px;
+    background: rgba(223, 223, 223, 0.65);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+#login .garisreg {
+    margin-bottom: 37px;
+    width: 419px;
+    border: 2px solid #000000;
+    margin: 0 auto;
+}
+
+#login .garisline {
+    margin-left: 0;
+    margin-bottom: 37px;
+    width: 419px;
+    border: 1px solid #000000;
+    margin: 0 auto;
+}
+
+#login .isi {
+    margin-left: 37.50px;
+}
+
+#login .garisline {
+    margin-left: 0;
+    margin-bottom: 39px;
+}
+
+#login .isi .nemail {
+    margin-bottom: 4px;
+    color: #000000;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    height: 35px;
+    margin-top: 32px;
+}
+
+#login .isi .npassword {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#login .isi .niemail {
+    outline: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background: transparent;
+    border-bottom: #000000;
+    border: 1px;
+    width: 400px;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#login .isi .nipassword {
+    outline: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background: transparent;
+    border-bottom: #000000;
+    border: 1px;
+    width: 400px;
+
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#login .btnlogin {
+    margin: 0 auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    background:#759993;
+    width: 265px;
+    border-radius: 50px;
+}
+
+#login .btnlogin a {
+    color: white;
+    text-decoration: none;
+    width: 265px;
+    height: 57px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+/* profile */
+#profile {
+    background: linear-gradient(180deg, #A9CACC 56.25%, rgba(169, 204, 198, 0) 100%);
+    margin-bottom: 60px;
+}
+
+#profile .header {
+    background: #ECECEC;
+}
+
+#profile .header img {
+    height: 45px;
+}
+
+#profile .header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+
+#profile .header .content .logis2 {
+    padding-right: 56px;
+    display: flex;
+    align-items: center;
+}
+
+#profile .logis2 .burger {
+    width: 38px;
+    height: 18px;
+    margin-right: 18px;
+}
+
+#profile .logis2 .icon {
+    width: 38px;
+    height: 22px;
+}
+
+#profile a {
+    margin: 0;
+    padding: 0;
+}
+
+#profile .cardprof {
+    margin-top: 81px;
+}
+
+#profile .card {
+    margin: 0 auto;
+    background: rgba(236, 236, 236, 0.54);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 660.17px;
+    height: 755px;
+}
+
+#profile .profls {
+    padding-top: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+#profile .prof {
+    height: 210px;
+    margin-bottom: 30px;
+}
+
+#profile .isiprof {
+    padding-left: 32px;
+}
+
+#profile .isiprof p {
+    margin-left: 16px;
+    margin-bottom: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #000000;
+}
+
+#profile .nl {
+    width: 589.36px;
+    height: 56.41px;
+    background: rgba(255, 255, 255, 0.68);
+    border-radius: 15px;
+    outline: none;
+    border: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-bottom: 16px;
+}
+
+#profile .pilih {
+    display: flex;
+    height: 30px;
+    margin-bottom: 26px;
+    margin-top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#profile .pilih .field1 {
+    margin-right: 40px;
+}
+
+#profile .pilih input {
+    transform: scale(2.2);
+    margin-left: 16px;
+}
+
+#profile .pilih label {
+    margin-left: 16px;
+}
+
+#profile .btnsbmt {
+    display: flex;
+    justify-content: center;
+}
+
+#profile .btnsbmt button {
+    outline: none;
+    margin-top: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    background:#759993;
+    width: 265px;
+    border-radius: 50px;
+    border: 0;
+
+
+    color: white;
+    text-decoration: none;
+    width: 265px;
+    height: 57px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+/* laporanKeuangan */
+#laporankeu {
+    /* background: linear-gradient(180deg, #A9CACC 56.25%, rgba(169, 204, 198, 0) 100%); */
+    background: #ECECEC;
+    margin-bottom: 60px;
+}
+
+#laporankeu .header {
+    background: #ECECEC;
+    margin-bottom: 60px;
+}
+
+#laporankeu .header img {
+    height: 45px;
+}
+
+#laporankeu .header .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+}
+
+#laporankeu .header .content .logis2 {
+    padding-right: 56px;
+    display: flex;
+    align-items: center;
+}
+
+#laporankeu .logis2 .house {
+    height: 22px; 
+    width: 40px;
+    margin-right: 16px;
+}
+
+#laporankeu .logis2 .burger {
+    width: 38px;
+    height: 18px;
+    margin-right: 18px;
+}
+
+#laporankeu .logis2 .icon {
+    width: 38px;
+    height: 22px;
+}
+
+#laporankeu a {
+    margin: 0;
+    padding: 0;
+}
+
+#laporankeu .detail {
+    background-color: rgba(148, 145, 145, 0.1);
+    width: 1295px;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+
+
+#laporankeu .detail .isi .ico {
+    width: 600px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+#laporankeu .detail .ico {
+    display: flex;
+    align-items: center;
+}
+
+#laporankeu .fix {
+    padding-top: 14px;
+    padding-bottom: 20px;
+    padding-left: 21px;
+    display: flex;
+}
+
+#laporankeu .detail .ico h1 {
+    margin-left: 12px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#laporankeu .detail .ico span {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #759993;
+}
+
+#laporankeu .detail .isi .ico .sepan {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#laporankeu .hitung {
+    margin-left: 72px;
+    margin-right: 72px;
+    margin-top: 64px;
+    background: #F3F3F3;
+    border-radius: 15px;
+    margin-bottom: 24px;
+}
+
+#laporankeu table, td, th {  
+    border-bottom: 1px solid #759993;
+    text-align: center;
+  }
+
+#laporankeu th {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #759993;
+}  
+
+#laporankeu td {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #262424;
+}
+  
+#laporankeu table {
+    width: 100%;
+}
+  
+#laporankeu th, td {
+    padding: 15px;
+}
+
+#laporankeu .ttl p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #262424;
+}
+
+#laporankeu .total {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#laporankeu .total .kiri {
+    margin-left: 97px;
+}
+
+#laporankeu .total .kanan {
+    margin-right: 132px;
+}
+
+#laporankeu .kiri {
+    margin-left: 97px;
+}
+
+#laporankeu .kiri p {
+    margin-bottom: 10px;
+}
+
+#laporankeu .duo {
+    display: flex;
+    justify-content: space-between;
+}
+
+#laporankeu .duo .kanan {
+    margin-right: 132px;
+}
+
+#laporankeu .duo p {
+    margin-bottom: 20px;
+}
