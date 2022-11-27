@@ -23,12 +23,21 @@ select {
     outline: none;
 }
 
+button {
+    cursor: pointer;
+}
+
 a {
     text-decoration: none;
 }
 
 li {
     list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* ROOT STYLES */
@@ -48,11 +57,11 @@ li {
 
 /* REUSED STYLES */
 
-section {
+.section {
     padding: 80px 0;
 }
 
-.container {
+.section .container {
     padding: 0 60px;
 }
 
@@ -73,8 +82,14 @@ section {
 }
 
 /* buttons */
-
-.btn {
+ 
+#tabungan .btn,
+#totalPendapatan .btn,
+#laporanKeuangan .btn,
+#anggaraIconTambah .btn,
+#pengeluaran .btn,
+#daftarAnggaran .btn
+{
     padding: 4px 42px;
     border-radius: 1.5rem;
     font-style: normal;
@@ -83,111 +98,220 @@ section {
     cursor: pointer;
 }
 
-.btn-success {
+#tabungan .btn-success, 
+#totalPendapatan .btn-success,
+#pengeluaran .btn-success,
+#anggaranTambahanIcon .btn-success,
+#daftarAnggaran .btn-success,
+#laporanKeuangan .btn-success
+{
     background-color: var(--greenSuccess);
 }
-
-.btn-danger {
+ 
+#tabungan .btn-danger, 
+#totalPendapatan .btn-danger, 
+#pengeluaran .btn-danger, 
+#anggaranTambahanIcon .btn-danger, 
+#daftarAnggaran .btn-danger, 
+#laporanKeuangan .btn-danger 
+{
     background-color: var(--redDanger);
 }
-
-.btn-warning {
+ 
+#tabungan .btn-warning,
+#totalPendapatan .btn-warning, 
+#pengeluaran .btn-warning, 
+#anggaranTambahanIcon .btn-warning, 
+#daftarAnggaran .btn-warning, 
+#laporanKeuangan .btn-warning
+{
     background-color: var(--pureYellow);
 }
-
-.btn-info {
+ 
+#tabungan .btn-info, 
+#totalPendapatan .btn-info, 
+#pengeluaran .btn-info, 
+#anggaranTambahanIcon .btn-info, 
+#daftarAnggaran .btn-info, 
+#laporanKeuangan .btn-info 
+{
     background-color: var(--pureBlue);
 }
 
 /* badges */
-
-.card-form {
+ 
+#tabungan .card-form, 
+#totalPendapatan .card-form, 
+#pengeluaran .card-form, 
+#anggaranTambahanIcon .card-form, 
+#daftarAnggaran .card-form, 
+#laporanKeuangan .card-form
+{
     padding: 36px 50px 40px 50px;
     position: relative;
     background-color: var(--pureGray);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 1rem;
 }
-
-.card-form.anggaran .card-item-form {
+ 
+#tabungan .card-form.anggaran .card-item-form,
+#totalPendapatan .card-form.anggaran .card-item-form,
+#pengeluaran .card-form.anggaran .card-item-form,
+#anggaraTambahanIcon .card-form.anggaran .card-item-form,
+#daftarAnggaran .card-form.anggaran .card-item-form,
+#laporanKeuangan .card-form.anggaran .card-item-form
+{
     padding-top: 26px;
 }
-
-.card-form-back {
+ 
+#tabungan .card-form-back, 
+#totalPendapatan .card-form-back, 
+#pengeluaran .card-form-back, 
+#anggaranTambahanIcon .card-form-back, 
+#daftarAnggaran .card-form-back, 
+#laporanKeuangan .card-form-back
+{
     font-style: normal;
     font-weight: 400;
     font-size: 23px;
     letter-spacing: 0.035em;
     color: var(--dark);
 }
-
-.card-form-badge {
+ 
+#tabungan .card-form-badge,
+#totalPendapatan .card-form-badge,
+#pengeluaran .card-form-badge,
+#anggaranTambahanIcon .card-form-badge,
+#daftarAnggaran .card-form-badge,
+#laporanKeuangan .card-form-badge
+{
     position: absolute;
     top: -45px;
     left: 0;
 }
-
-.card-form-badge {
+ 
+#tabungan .card-form-badge,
+#totalPendapatan .card-form-badge,
+#pengeluaran .card-form-badge,
+#anggaranTambahIcon .card-form-badge,
+#daftarAnggaran .card-form-badge,
+#laporanKeuangan .card-form-badge
+{
     padding: 11px 28px 14px 28px;
     background-color: #ffffff;
     border-radius: 30px;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 12px;
     width: max-content;
     box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.25);
 }
-
-.card-form-badge-title-wrapper {
+ 
+#tabungan .card-form-badge-title-wrapper,
+#totalPendapatan .card-form-badge-title-wrapper,
+#pengeluaran .card-form-badge-title-wrapper,
+#anggaranTambahanIcon .card-form-badge-title-wrapper,
+#daftarAnggaran .card-form-badge-title-wrapper,
+#laporanKeuangan .card-form-badge-title-wrapper
+{
     display: flex;
     align-items: center;
-    gap: 2px;
+    gap: 12px;
 }
-
-.card-form-badge-title-wrapper img {
+ 
+#tabungan .card-form-badge-title-wrapper img,
+#totalPendapatan .card-form-badge-title-wrapper img,
+#pengeluaran .card-form-badge-title-wrapper img,
+#anggaranTambahanIcon .card-form-badge-title-wrapper img,
+#daftarAnggaran .card-form-badge-title-wrapper img,
+#laporanKeuangan .card-form-badge-title-wrapper img
+{
     width: clamp(30px, 4vw, 50px);
     height: clamp(30px, 4vw, 50px);
 }
-
-.card-form-badge-text-title {
+ 
+#tabungan .card-form-badge-text-title,
+#totalPendapatan .card-form-badge-text-title,
+#pengeluaran .card-form-badge-text-title,
+#anggaranTambahanIcon .card-form-badge-text-title,
+#daftarAnggaran .card-form-badge-text-title,
+#laporanKeuangan .card-form-badge-text-title
+{
     font-style: normal;
     font-weight: 500;
     font-size: clamp(12px, 4vw, 35px);
 }
-
-.card-form-badge-price {
+ 
+#tabungan .card-form-badge-price, 
+#totalPendapatan .card-form-badge-price, 
+#pengeluaran .card-form-badge-price, 
+#anggaranTambahanIcon .card-form-badge-price, 
+#daftarAnggaran .card-form-badge-price, 
+#laporanKeuangan .card-form-badge-price
+{
     font-style: normal;
     font-weight: 700;
     font-size: clamp(12px, 4vw, 45px);
 }
-
-.card-form-title {
+ 
+#tabungan .card-form-title, 
+#totalPendapatan .card-form-title, 
+#pengeluaran .card-form-title, 
+#anggaranTambahanIcon .card-form-title, 
+#daftarAnggaran .card-form-title, 
+#laporanKeuangan .card-form-title
+{
     padding-top: 28px;
     color: var(--black);
     font-size: clamp(12px, 4vw, 35px);
 }
-
-.card-list-form {
+ 
+#tabungan .card-list-form, 
+#totalPendapatan .card-list-form, 
+#pengeluaran .card-list-form, 
+#anggaranTambahanIcon .card-list-form, 
+#daftarAnggaran .card-list-form, 
+#laporanKeuangan .card-list-form 
+{
     max-width: 902px;
 }
-
-.card-item-form {
+ 
+#tabungan .card-item-form, 
+#totalPendapatan .card-item-form, 
+#pengeluaran .card-item-form, 
+#anggaranTambahanIcon .card-item-form, 
+#daftarAnggaran .card-item-form, 
+#laporanKeuangan .card-item-form
+{
     padding: 20px 0;
     position: relative;
 }
-
-.card-item-form label {
+ 
+#tabungan .card-item-form label, 
+#totalPendapatan .card-item-form label, 
+#pengeluaran .card-item-form label, 
+#anggaranTambahanIcon .card-item-form label, 
+#daftarAnggaran .card-item-form label, 
+#laporanKeuangan .card-item-form label 
+{
     font-style: normal;
     font-weight: 500;
     font-size: clamp(12px 4vw, 23px);
     letter-spacing: 0.035em;
 }
-
-.card-item-input {
+ 
+#tabungan .card-item-input, 
+#totalPendapatan .card-item-input, 
+#pengeluaran .card-item-input, 
+#anggaranTambahanIcon .card-item-input, 
+#daftarAnggaran .card-item-input, 
+#laporanKeuangan .card-item-input 
+{
     position: relative;
     padding-block: 20px;
     border-bottom: 1px solid var(--black);
 }
-
+ 
 .card-item-input input,
 .card-item-input select 
 {
@@ -203,11 +327,11 @@ section {
     font-size: clamp(12px, 4vw, 35px);
     letter-spacing: 0.035em;
 }
-
+ 
 .card-item-form:not(:first-child) .card-item-input {
     margin-top: 12px;
 }
-
+ 
 .card-item-form:not(:first-child) .card-item-input input,
 .card-item-form:not(:first-child) .card-item-input select
 {
@@ -238,8 +362,144 @@ section {
     letter-spacing: 0.035em;
 }
 
+/* CARD FORM TABLE */
 
+.card-table {
+    padding: 130px 72px;
+}
 
+.card-form-table {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    overflow: auto;
+}
 
+.card-form-thead tr {
+    padding: 0 22px;
+    border-bottom: 1px solid #759993;
+}
 
+.card-form-thead tr td {
+    font-weight: 600;
+    font-size: clamp(12px, 4vw, 40px);
+    color: var(--darkGreen);
+    text-align: center;
+    padding: 0 22px;
+}
 
+.card-form-tbody tr td {
+    padding: 16px 0;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(12px, 4vw, 36px);
+    line-height: 54px;
+    color: var(--black);
+}
+
+.card-form-tbody tr {
+    border-bottom: 1px solid #759993;
+}
+
+.card-form-tbody tr:last-child {
+    border-bottom: none;
+}
+
+.card-order-list {
+    padding-top: 28px;
+}
+
+.card-order-item {
+    padding: 24px 0;
+}
+
+.card-order-item:not(:last-child) {
+    border-bottom: 1px solid #000000;
+}
+
+.card-order-item h3 {
+    padding-bottom: 8px;
+}
+
+.card-order-item h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 52px;
+    color: #262424;
+}
+
+#daftarAnggaran .btn-add-more {
+    position: absolute;
+    bottom: -50px;
+    right: 100px;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* HEADER */
+
+.header {
+    position: relative;
+    display: flex;
+    padding: 20px 30px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ECECEC;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.header .logo span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #000000;
+}
+
+.header .button-actions {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header .navbar {
+    position: absolute;
+    display: none;
+    top: 100%;
+    right: 5%;
+    padding: 14px 18px;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 50;
+}
+
+.header .navbar.active {
+    display: block;
+}
+
+.header .navbar .navbar-list {
+    text-align: center;
+}
+
+.header .navbar .navbar-list .nav-item:not(:last-child) {
+    padding-bottom: 12px;
+}
+
+.header .navbar .navbar-list .nav-item a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
