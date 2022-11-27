@@ -819,7 +819,7 @@ Halaman Dashboard
 #laporankeu {
     /* background: linear-gradient(180deg, #A9CACC 56.25%, rgba(169, 204, 198, 0) 100%); */
     background: #ECECEC;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
 }
 
 #laporankeu .header {
@@ -867,6 +867,7 @@ Halaman Dashboard
 }
 
 #laporankeu .detail {
+    padding-bottom: 32px;
     background-color: rgba(148, 145, 145, 0.1);
     width: 1295px;
     margin: 0 auto;
@@ -994,4 +995,53 @@ Halaman Dashboard
 
 #laporankeu .duo p {
     margin-bottom: 20px;
+}
+
+#laporankeu .totalpen {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#laporankeu .totalpen .kiri {
+    margin-left: 97px;
+}
+
+#laporankeu .totalpen .kanan {
+    margin-right: 132px;
+}
+
+#laporankeu .totalpen p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #262424;
+}
+
+#laporankeu .hrtotal {
+    margin-top: 21px;
+    margin-bottom: 20px;
+    align-items: center;
+    width: 1142px;
+    height: 0;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#laporankeu .noted {
+    width: 552px;
+    margin: 0 auto;
+}
+
+#laporankeu .noted p {
+    color: #262424;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 25px;
+    background: #F3F3F3;
+    border-radius: 15px;
 }
